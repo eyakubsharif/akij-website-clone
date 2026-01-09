@@ -1,10 +1,11 @@
 import React from 'react';
+import banner from '../../assets/images/banner1.jpg'
 
 const Banner = () => {
     return (
         <div className='text-white'>
             <div className=' h-screen relative '>
-                <img className='mx-auto' src="/src/assets/images/banner1.jpg" alt="" />
+                <img className='mx-auto' src={banner} alt="" />
             </div>
             <div className=' '>
                 <div className='w-7/12 mx-auto absolute top-110 left-60 '>
