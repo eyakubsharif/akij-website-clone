@@ -1,9 +1,9 @@
 import React from "react";
-import companies1 from '../../assets/images/companies1.svg'
-import companies2 from '../../assets/images/companies2.svg'
-import companies3 from '../../assets/images/companies3.svg'
-import companies4 from '../../assets/images/companies4.svg'
-import companies5 from '../../assets/images/companies5.svg'
+import companies1 from '../assets/images/companies1.svg'
+import companies2 from '../assets/images/companies2.svg'
+import companies3 from '../assets/images/companies3.svg'
+import companies4 from '../assets/images/companies4.svg'
+import companies5 from '../assets/images/companies5.svg'
 
 const Companies = () => {
   return (
