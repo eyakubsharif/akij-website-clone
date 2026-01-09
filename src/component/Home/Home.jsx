@@ -10,8 +10,7 @@ import AboutSection from "../AboutSection/AboutSection";
 import Companies from "../Companies/Companies";
 import Product from "../Product/Product";
 import Footer from "../Footer/Footer";
-import logo from '../../assets/images/logo.png'
-import banner2 from '../../assets/images/banner2.jpg'
+
 
 const Home = () => {
   return (
@@ -40,7 +39,7 @@ const Home = () => {
       <div className="flex justify-between items-center mt-10 mb-5">
         {/* left div  */}
         <div className="flex items-center gap-2 ">
-          <img className="h-10 " src={logo} alt="" />
+          <img className="h-10 " src="/logo" alt="" />
           <h1 className="text-2xl">Akij Group</h1>
         </div>
         {/* right div  */}
@@ -87,7 +86,7 @@ const Home = () => {
     <Product></Product>
     <div className=" relative">
         <div>
-          <img className="h-80 w-full  " src={banner2} alt="" />
+          <img className="h-80 w-full  " src="/banner2" alt="" />
         </div>
         <div className="w-7/12 mx-auto absolute top-25 left-55">
         <p className="font-bold text-xl text-white">Subscribe to Newsletter</p>
