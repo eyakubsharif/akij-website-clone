@@ -62,7 +62,7 @@ const Companies = () => {
             <div className="bg-white p-10 h-45 w-47 shadow-2xl rounded">
               <img
                 className="mx-auto h-25 w-30 m-0"
-               src="companies5"
+               src="./companies5"
                 alt=""
               />
             </div>
