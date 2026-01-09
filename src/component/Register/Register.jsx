@@ -1,14 +1,14 @@
 import { createUserWithEmailAndPassword, sendEmailVerification } from "firebase/auth";
 import React, { useState } from "react";
 
-import { Link, useNavigate } from "react-router";
+import { Link } from "react-router";
 import { auth } from "../../firebase/firebase.config";
 
 
 
 const Register = () => {
   const [success,setSuccess]=useState(false)
-  const navigate = useNavigate()
+ 
 
 
   const handleRegister = (e) => {
