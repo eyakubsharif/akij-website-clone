@@ -1,4 +1,9 @@
 import React from "react";
+import companies1 from '../../assets/images/companies1.svg'
+import companies2 from '../../assets/images/companies2.svg'
+import companies3 from '../../assets/images/companies3.svg'
+import companies4 from '../../assets/images/companies4.svg'
+import companies5 from '../../assets/images/companies5.svg'
 
 const Companies = () => {
   return (
@@ -16,7 +21,7 @@ const Companies = () => {
             <div className="bg-white p-10 h-45 w-47 shadow-2xl rounded ">
               <img
                 className="mx-auto h-25 w-30 m-0"
-                src="/src/assets/images/companies6.png"
+               src={companies1}
                 alt=""
               />
             </div>
@@ -26,7 +31,7 @@ const Companies = () => {
             <div className="bg-white p-10 h-45 w-47 shadow-2xl rounded">
               <img
                 className="mx-auto h-25 w-30 m-0"
-                src="/src/assets/images/companies2.svg"
+                 src={companies2}
                 alt=""
               />
             </div>
@@ -36,7 +41,7 @@ const Companies = () => {
             <div className="bg-white p-10 h-45 w-47 shadow-2xl rounded">
               <img
                 className="mx-auto h-25 w-30 m-0"
-                src="/src/assets/images/companies1.svg"
+                 src={companies3}
                 alt=""
               />
             </div>
@@ -46,7 +51,7 @@ const Companies = () => {
             <div className="bg-white p-10 h-45 w-47 shadow-2xl rounded">
               <img
                 className="mx-auto h-25 w-30 m-0"
-                src="/src/assets/images/companies7.svg"
+                src={companies4}
                 alt=""
               />
             </div>
@@ -59,7 +64,7 @@ const Companies = () => {
             <div className="bg-white p-10 h-45 w-47 shadow-2xl rounded">
               <img
                 className="mx-auto h-25 w-30 m-0"
-                src="/src/assets/images/companies8.svg"
+                 src={companies5}
                 alt=""
               />
             </div>

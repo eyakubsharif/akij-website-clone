@@ -5,14 +5,14 @@ import { ImLinkedin } from "react-icons/im";
 import { IoCall, IoLocation } from "react-icons/io5";
 import { TfiEmail } from "react-icons/tfi";
 import { NavLink } from 'react-router';
-
+import logo from '../../assets/images/logo.png'
 
 const Footer = () => {
   return (
 <div className="bg-blue-600 py-15 px-5 ">
         <div className=" text-white grid grid-cols-3 gap-10 ">
       <div className="justify-center items-center ">
-        <img className="mx-auto py-3" src="/src/assets/images/logo.png" alt="" />
+        <img className="mx-auto py-3" src={logo} />
         <h1 className="font-bold text-xl">AKIJ GROUP</h1>
         <p className="mt-5">The Largest Group of Company in Bangladesh</p>
 

@@ -1,4 +1,10 @@
 import React from 'react';
+import akijUddin from '../../assets/images/akijUddin.jpg'
+import about1 from '../../assets/images/about1.svg'
+import about2 from '../../assets/images/about2.svg'
+import about3 from '../../assets/images/about3.svg'
+import about4 from '../../assets/images/about4.svg'
+import logo from '../../assets/images/logo.png'
 
 const AboutSection = () => {
     return (
@@ -11,28 +17,28 @@ const AboutSection = () => {
             <div className='grid grid-cols-4 gap-8'>
                
                 <div className='border border-blue-500 rounded-xl p-5 hover:scale-110 hover:shadow-2xl cursor-pointer ease-in-out duration-800'>
-                    <img className='mx-auto mb-3' src="/src/assets/images/about1.svg" alt="" />
+                    <img className='mx-auto mb-3' src={about1} alt="" />
                     <div className='text-center'>
                         <h3>Since</h3>
                         <p>1950</p>
                     </div>
                 </div>
                 <div className='border border-blue-500 rounded-xl p-5 hover:scale-110 hover:shadow-2xl cursor-pointer ease-in-out duration-800'>
-                    <img className='mx-auto mb-3' src="/src/assets/images/about2.svg" alt="" />
+                    <img className='mx-auto mb-3' src={about2} alt="" />
                     <div className='text-center'>
                         <h3>Units</h3>
                         <p>31</p>
                     </div>
                 </div>
                 <div className='border  border-blue-500 rounded-xl p-5 hover:scale-110 hover:shadow-2xl cursor-pointer ease-in-out duration-800'>
-                    <img className='mx-auto mb-3' src="/src/assets/images/about3.svg" alt="" />
+                    <img className='mx-auto mb-3'src={about3} alt="" />
                     <div className='text-center'>
                         <h3>Employees</h3>
                         <p>35053</p>
                     </div>
                 </div>
                 <div className='border  border-blue-500 rounded-xl p-5 hover:scale-110 hover:shadow-2xl cursor-pointer ease-in-out duration-800'>
-                    <img className='mx-auto mb-3' src="/src/assets/images/about4.png" alt="" />
+                    <img className='mx-auto mb-3' src={about4} alt="" />
                     <div className='text-center'>
                         <h3>National Achievements</h3>
                         <p>25</p>
@@ -45,9 +51,9 @@ const AboutSection = () => {
                 <div className='flex justify-between items-center w-11/12 mx-auto'>
                     {/* image div  */}
                     <div className='w-[50%] relative'>
-                        <img className='' src="/src/assets/images/akijUddin.jpg" alt="" />
+                        <img className='' src={akijUddin} alt="" />
                         <div className='flex justify-between items-center absolute w-55 rounded shadow-2xl top-105 right-5 px-5 py-1 bg-white  '>
-                            <img src="/src/assets/images/logo.png" alt="" />
+                            <img src={logo} alt="" />
                             <div>
                                 <p className='font-bold'>SK.AKIJ UDDIN</p>
                                 <p className='font-bold text-sm text-yellow-600'>FOUNDER</p>
